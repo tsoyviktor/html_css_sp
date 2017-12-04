@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/atomic.css">
+</head>
+<body class="C(#000.87) Trs(default)">
+<div class="page D(f) Fld(c) P(5px) Mih(100vh)">
+  <header class="D(f) Fld(c) Fld(r)--lg Bxsh(light)">
+
+    <div class="D(f) Jc(c)">
+      <img class="Mah(100px)" src="img/logo.jpg" alt="Logo">
+    </div>
+
+    <nav class="Flxg(1) As(c)--lg">
+      <ul class="Fz(16px) D(f) Fld(c) Fld(r)--lg">
+        <li class="Px(16px) Bgc(light):h"><a class="D(b) C(#000.87) Td(n) Lh(48px)" href="#">Home</a></li>
+        <li class="Px(16px) Bgc(light):h"><a class="D(b) C(#000.87) Td(n) Lh(48px)" href="#">About</a></li>
+        <li class="Px(16px) Bgc(light):h"><a class="D(b) C(#000.87) Td(n) Lh(48px)" href="#">Catalog</a></li>
+        <li class="Px(16px) Bgc(light):h"><a class="D(b) C(#000.87) Td(n) Lh(48px)" href="#">Login</a></li>
+        <li class="Px(16px) Bgc(light):h"><a class="D(b) C(#000.87) Td(n) Lh(48px)" href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <article class="W(100%) Flxg(1) D(f) Jc(c)">
+
+    <form action="#/receive_email" method="POST" class="As(c) Bxsh(light) P(15px) Maw(650px) W(90%)">
+      <fieldset class="D(f) Fld(c) Jc(c)">
+        <legend class="W(100%) Fz(24px) Ta(c) My(20px)">Use form to send us your message</legend>
+        <input class="W(100%) Mih(38px) Lh(20px) My(20px) Px(5px) Bxz(bb)" type="email" name="email" id="email" placeholder="Input your email here please">
+        <input class="W(100%) Mih(38px) Lh(20px) My(20px) Px(5px) Bxz(bb)" type="text" name="name" id="text" placeholder="Let us know your name">
+        <textarea class="Px(5px) W(100%) My(20px) Bxz(bb)"
+                  name="message" id="message" cols="30"
+                  rows="10" placeholder="Type your message here..."></textarea>
+        <input type="submit" value="Submit!">
+      </fieldset>
+    </form>
+
+  </article>
+
+  <footer class="W(100%) H(100px) Bgc(lightgrey)"></footer>
+</div>
+</body>
+</html>
+
+<!--transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms-->

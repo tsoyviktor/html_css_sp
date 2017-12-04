@@ -1,14 +1,48 @@
+.Bd {
+  border-width: 1px;
+  border-style: solid;
+}
+.Bd\(n\) {
+  border: none;
+}
+.Bdtw\(0\) {
+  border-top-width: 0;
+}
+.Bdbw\(1\) {
+  border-bottom-width: 1;
+}
+.Bgc\(light\)\:h:hover {
+  background-color: rgb(232, 232, 232);
+}
+.Bgc\(lightgrey\) {
+  background-color: lightgrey;
+}
+.Bxz\(bb\) {
+  box-sizing: border-box;
+}
 .Bxsh\(light\) {
   box-shadow: rgba(0, 0, 0, 0.12) 0 1px 6px, rgba(0, 0, 0, 0.12) 0 1px 4px;
 }
 .C\(\#000\.87\) {
   color: rgba(0,0,0,.87);
 }
+.D\(b\) {
+  display: block;
+}
 .D\(f\) {
   display: flex;
 }
+.Flxg\(1\) {
+  flex-grow: 1;
+}
+.As\(c\) {
+  align-self: center;
+}
 .Fld\(c\) {
   flex-direction: column;
+}
+.Fld\(r\) {
+  flex-direction: row;
 }
 .Jc\(c\) {
   justify-content: center;
@@ -16,11 +50,51 @@
 .Fz\(16px\) {
   font-size: 16px;
 }
+.Fz\(24px\) {
+  font-size: 24px;
+}
+.H\(100px\) {
+  height: 100px;
+}
+.Lh\(20px\) {
+  line-height: 20px;
+}
+.Lh\(24px\) {
+  line-height: 24px;
+}
 .Lh\(48px\) {
   line-height: 48px;
 }
+.My\(20px\) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .Mah\(100px\) {
   max-height: 100px;
+}
+.Maw\(650px\) {
+  max-width: 650px;
+}
+.Maw\(fa\) {
+  max-width: fill-available;
+}
+.Mih\(100vh\) {
+  min-height: 100vh;
+}
+.Mih\(28px\) {
+  min-height: 28px;
+}
+.Mih\(38px\) {
+  min-height: 38px;
+}
+.Mih\(48px\) {
+  min-height: 48px;
+}
+.P\(10px\) {
+  padding: 10px;
+}
+.P\(15px\) {
+  padding: 15px;
 }
 .P\(5px\) {
   padding: 5px;
@@ -29,9 +103,46 @@
   padding-left: 16px;
   padding-right: 16px;
 }
+.Px\(5px\) {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.Ta\(c\) {
+  text-align: center;
+}
 .Td\(n\) {
   text-decoration: none;
 }
 .W\(100\%\) {
   width: 100%;
+}
+.W\(90\%\) {
+  width: 90%;
+}
+@media screen and (min-width: 380px) {
+  .Fld\(c\)--sm {
+    flex-direction: column;
+  }
+  .W\(100\%\)--sm {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .Fld\(c\)--md {
+    flex-direction: column;
+  }
+  .W\(100\%\)--md {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .As\(c\)--lg {
+    align-self: center;
+  }
+  .Fld\(r\)--lg {
+    flex-direction: row;
+  }
+  .W\(200px\)--lg {
+    width: 200px;
+  }
 }

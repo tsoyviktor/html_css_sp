@@ -37,4 +37,8 @@ gulp.task('css', function () {
 
 gulp.task('build', ['acss', 'css', 'img', 'html']);
 
-return gulp.src('./*.html');
+gulp.task('watch', function() {
+
+    gulp.watch('src/*.html', ['build'])
+});
+
