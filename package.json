@@ -1,0 +1,27 @@
+{
+  "name": "html_css_sp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/gulp/bin/gulp.js build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsoyviktor/html_css_sp.git"
+  },
+  "author": "Valerii Martseniuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsoyviktor/html_css_sp/issues"
+  },
+  "homepage": "https://github.com/tsoyviktor/html_css_sp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-atomizer": "^3.0.7"
+  }
+}
