@@ -1,15 +1,5 @@
-.Bd {
-  border-width: 1px;
-  border-style: solid;
-}
-.Bd\(n\) {
-  border: none;
-}
-.Bdtw\(0\) {
-  border-top-width: 0;
-}
-.Bdbw\(1\) {
-  border-bottom-width: 1;
+.Bgc\(\#efefef\) {
+  background-color: #efefef;
 }
 .Bgc\(light\)\:h:hover {
   background-color: rgb(232, 232, 232);
@@ -41,14 +31,17 @@
 .Fld\(c\) {
   flex-direction: column;
 }
-.Fld\(r\) {
-  flex-direction: row;
-}
 .Jc\(c\) {
   justify-content: center;
 }
+.Fw\(b\) {
+  font-weight: bold;
+}
 .Fz\(16px\) {
   font-size: 16px;
+}
+.Fz\(20px\) {
+  font-size: 20px;
 }
 .Fz\(24px\) {
   font-size: 24px;
@@ -56,14 +49,20 @@
 .H\(100px\) {
   height: 100px;
 }
+.H\(50px\) {
+  height: 50px;
+}
+.Lh\(0px\) {
+  line-height: 0px;
+}
 .Lh\(20px\) {
   line-height: 20px;
 }
-.Lh\(24px\) {
-  line-height: 24px;
-}
 .Lh\(48px\) {
   line-height: 48px;
+}
+.Lh\(50px\) {
+  line-height: 50px;
 }
 .Mx\(a\) {
   margin-left: auto;
@@ -80,26 +79,17 @@
 .Mah\(100px\) {
   max-height: 100px;
 }
+.Mah\(80px\) {
+  max-height: 80px;
+}
 .Maw\(650px\) {
   max-width: 650px;
-}
-.Maw\(fa\) {
-  max-width: fill-available;
 }
 .Mih\(100vh\) {
   min-height: 100vh;
 }
-.Mih\(28px\) {
-  min-height: 28px;
-}
 .Mih\(38px\) {
   min-height: 38px;
-}
-.Mih\(48px\) {
-  min-height: 48px;
-}
-.P\(10px\) {
-  padding: 10px;
 }
 .P\(15px\) {
   padding: 15px;
@@ -121,26 +111,28 @@
 .Td\(n\) {
   text-decoration: none;
 }
+.Trs\(default\) {
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
 .W\(100\%\) {
   width: 100%;
+}
+.W\(200px\) {
+  width: 200px;
 }
 .W\(90\%\) {
   width: 90%;
 }
 @media screen and (min-width: 380px) {
-  .Fld\(c\)--sm {
-    flex-direction: column;
-  }
-  .W\(100\%\)--sm {
-    width: 100%;
+  .My\(10px\)--sm {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 600px) {
-  .Fld\(c\)--md {
-    flex-direction: column;
-  }
-  .W\(100\%\)--md {
-    width: 100%;
+  .My\(10px\)--md {
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 900px) {
@@ -149,8 +141,5 @@
   }
   .Fld\(r\)--lg {
     flex-direction: row;
-  }
-  .W\(200px\)--lg {
-    width: 200px;
   }
 }
