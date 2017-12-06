@@ -1,3 +1,6 @@
+.Bgc\(\#add8e6\) {
+  background-color: #add8e6;
+}
 .Bgc\(\#efefef\) {
   background-color: #efefef;
 }
@@ -16,6 +19,9 @@
 .C\(\#000\.87\) {
   color: rgba(0,0,0,.87);
 }
+.C\(hsla\) {
+  color: rgba(0,0,0,.7);
+}
 .D\(b\) {
   display: block;
 }
@@ -31,14 +37,29 @@
 .Fld\(c\) {
   flex-direction: column;
 }
+.Fld\(r\) {
+  flex-direction: row;
+}
 .Jc\(c\) {
   justify-content: center;
 }
 .Fw\(b\) {
   font-weight: bold;
 }
+.Fz\(1\.1em\) {
+  font-size: 1.1em;
+}
+.Fz\(1\.1rem\) {
+  font-size: 1.1rem;
+}
+.Fz\(1\.25rem\) {
+  font-size: 1.25rem;
+}
 .Fz\(16px\) {
   font-size: 16px;
+}
+.Fz\(1em\) {
+  font-size: 1em;
 }
 .Fz\(20px\) {
   font-size: 20px;
@@ -51,9 +72,6 @@
 }
 .H\(50px\) {
   height: 50px;
-}
-.Lh\(0px\) {
-  line-height: 0px;
 }
 .Lh\(20px\) {
   line-height: 20px;
@@ -82,6 +100,9 @@
 .Mah\(80px\) {
   max-height: 80px;
 }
+.Maw\(1200px\) {
+  max-width: 1200px;
+}
 .Maw\(650px\) {
   max-width: 650px;
 }
@@ -105,20 +126,24 @@
   padding-left: 5px;
   padding-right: 5px;
 }
+.Py\(2rem\) {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 .Ta\(c\) {
   text-align: center;
 }
 .Td\(n\) {
   text-decoration: none;
 }
+.Tt\(u\) {
+  text-transform: uppercase;
+}
 .Trs\(default\) {
   transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
 }
 .W\(100\%\) {
   width: 100%;
-}
-.W\(200px\) {
-  width: 200px;
 }
 .W\(90\%\) {
   width: 90%;
