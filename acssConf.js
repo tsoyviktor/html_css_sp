@@ -13,6 +13,7 @@ module.exports = {
     'breakPoints': {
         'sm': '@media screen and (min-width: 380px)',
         'md': '@media screen and (min-width: 600px)',
-        'lg': '@media screen and (min-width: 900px)'
+        'lg': '@media screen and (min-width: 900px)',
+        'elg': '@media screen and (min-width: 1200px)'
     }
 };
