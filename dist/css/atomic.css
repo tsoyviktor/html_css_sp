@@ -16,8 +16,14 @@
 .C\(\#000\.87\) {
   color: rgba(0,0,0,.87);
 }
+.C\(green\) {
+  color: green;
+}
 .C\(hsla\) {
   color: rgba(0,0,0,.7);
+}
+.Cur\(p\) {
+  cursor: pointer;
 }
 .D\(b\) {
   display: block;
@@ -27,6 +33,12 @@
 }
 .Flxg\(1\) {
   flex-grow: 1;
+}
+.Flxg\(2\) {
+  flex-grow: 2;
+}
+.Flxg\(3\) {
+  flex-grow: 3;
 }
 .As\(c\) {
   align-self: center;
@@ -64,8 +76,14 @@
 .Fz\(24px\) {
   font-size: 24px;
 }
+.Fz\(28px\) {
+  font-size: 28px;
+}
 .Fz\(32px\) {
   font-size: 32px;
+}
+.Fz\(40px\) {
+  font-size: 40px;
 }
 .H\(100px\) {
   height: 100px;
@@ -79,8 +97,14 @@
 .H\(4rem\) {
   height: 4rem;
 }
+.H\(500px\) {
+  height: 500px;
+}
 .H\(50px\) {
   height: 50px;
+}
+.H\(600px\) {
+  height: 600px;
 }
 .Lh\(20px\) {
   line-height: 20px;
@@ -93,6 +117,9 @@
 }
 .Lh\(50px\) {
   line-height: 50px;
+}
+.M\(20px\) {
+  margin: 20px;
 }
 .M\(a\) {
   margin: auto;
@@ -123,6 +150,9 @@
 }
 .Mah\(80px\) {
   max-height: 80px;
+}
+.Maw\(450px\) {
+  max-width: 450px;
 }
 .Maw\(650px\) {
   max-width: 650px;
