@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <title>Eat right or stay sick</title>
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/styles.css">
   <link rel="stylesheet" href="./css/atomic.css">
 </head>
 <body>
 <div class="page D(f) Fld(c) W(100%) P(5px) Mih(100vh)">
-  <header class="D(f) Fld(c) Fld(r)--lg">
+  <header class="D(f) Fld(c) Fld(r)--lg Bgc(#efefef)">
 
     <div class="D(f) Jc(c)">
-      <a href="#" class="Bgc(#efefef)"><img class="Mah(80px)" src="img/logo.jpg" alt="Logo"></a>
+      <a href="#" class="Bgc(#efefef)"><img class="Mah(100px)" src="img/logo.jpg" alt="Logo"></a>
     </div>
 
     <nav class="Flxg(1) As(c)--lg">
@@ -29,91 +30,217 @@
 
   </header>
 
-  <div class="Flxg(1) D(f) Fld(c) W(100%  ) W(1200px)--elg M(a) Mt(20px)">
-    <ul class="Fz(1em) D(f) Tt(u) Fld(r) Ta(c) Bgc(#add8e6) C(hsla) M(a) W(100%)">
-      <li class="Py(1em) Flxg(1) Px(16px) Bgc(light):h"><a class="D(b) C(#000.87) Td(n) Lh(48px)"
+  <div class="Flxg(1) D(f) Fld(c) W(100%) W(1200px)--elg M(a) Mt(20px)">
+    <ul class="Fz(1em) D(f) Tt(u) Fld(r) Ta(c) C(hsla) Mx(a) W(100%) catalog_menu">
+      <li class="Py(1em) Flxg(1) Px(16px) Bgc(light):h"><a class="D(b) Td(n) Lh(48px)"
                                                            href="#">Frameworks</a></li>
-      <li class="Py(1em) Flxg(1) Px(16px) Bgc(light):h"><a class="D(b) C(#000.87) Td(n) Lh(48px)" href="#">Libraries</a>
+      <li class="active Py(1em) Flxg(1) Px(16px) Bgc(light):h"><a class="D(b) Td(n) Lh(48px)" href="#">Libraries</a>
       </li>
-      <li class="Py(1em) Flxg(1) Px(16px) Bgc(light):h"><a class="D(b) C(#000.87) Td(n) Lh(48px)"
+      <li class="Py(1em) Flxg(1) Px(16px) Bgc(light):h"><a class="D(b) Td(n) Lh(48px)"
                                                            href="#">Frameworks</a></li>
-      <li class="Py(1em) Flxg(1) Px(16px) Bgc(light):h"><a class="D(b) C(#000.87) Td(n) Lh(48px)" href="#">Platforms</a>
+      <li class="Py(1em) Flxg(1) Px(16px) Bgc(light):h"><a class="D(b) Td(n) Lh(48px)" href="#">Platforms</a>
       </li>
-      <li class="Py(1em) Flxg(1) Px(16px) Bgc(light):h"><a class="D(b) C(#000.87) Td(n) Lh(48px)" href="#">Tools</a>
+      <li class="Py(1em) Flxg(1) Px(16px) Bgc(light):h"><a class="D(b) Td(n) Lh(48px)" href="#">Tools</a>
       </li>
     </ul>
 
-    <article class="Flxg(1) W(100%)">
+    <div class="grouped W(100%)">
       <div class="D(f) Flw(w)">
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">Jest</span>
+            <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/libraries/jestlogo.png" alt=""></div>
+          </div>
+        </a>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">jQuery</span>
+            <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/libraries/jquerylogo.png" alt=""></div>
+          </div>
+        </a>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">mobX</span>
+            <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/libraries/mobx.png" alt=""></div>
+          </div>
+        </a>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">@ngrx/store</span>
+            <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/libraries/ngrxstore.png" alt=""></div>
+          </div>
+        </a>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
             <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
           </div>
         </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
             <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
           </div>
         </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
             <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
           </div>
         </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
             <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
           </div>
         </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
             <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
           </div>
         </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
             <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
           </div>
         </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
             <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
           </div>
         </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
+        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h">
+          <div class="item  Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
             <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
           </div>
         </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
-            <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
-          </div>
-        </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
-            <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
-          </div>
-        </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
-            <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
-          </div>
-        </a>
-        <a href="" class="Flxg(1) W(25%) Td(n) Bgc(light):h"> 
-          <div class="item Bdc(#171e27) Bds(s) Bdw(1px) Jc(fe) D(f) H(12rem)"><span class="D(f) Flxg(1) Fld(c) Ta(c) Jc(c)">React.js</span>
-            <div class="D(f) Ai(c)"><img class="H(4rem) Mend(20px)" src="./img/react.png" alt=""></div>
-          </div>
-        </a>
-        
+
 
       </div>
-    </article>
-  </div>
+    </div>
 
-  <footer class="W(100%) H(50px) Bgc(lightgrey) Ta(c) Lh(50px)">
-    &copy; 2017-2017 learN.
-  </footer>
+    <div class="D(f) Fld(c) My(50px) ">
+      <h2 class="Fz(32px) As(c) Mb(20px) Fw(b)">Featured</h2>
+      <div class="featured_items D(f) Fld(r) Flw(w)">
+
+        <div class="featured_item P(20px)">
+          <div class="title P(10px) Ta(c) Fz(20px)">
+            Layouts Using CSS Grid
+          </div>
+          <div class="video P(10px)">
+            <iframe class="W(100%) H(200px)" src="https://www.youtube.com/embed/HgwCeNVPlo0" frameborder="0"
+                    gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <div class="D(f) Lh(26px)">
+            <div class="timer W(25px)">
+              <svg class="index__clockIcon__e89cfd282192a389cb4cfdb11796cc8a CardInfo__clockIcon__94d456bf0c9a78bc9207ebfea12da524"
+                   viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" aria-labelledby="ClockIcon-title"><title
+                      id="ClockIcon-title">ClockIcon</title>
+                <path d="M8.99199976,1 C13.4160003,1 17,4.58399963 17,9 C17,13.4160003 13.4160003,17 8.99199976,17 C4.57600021,17 1,13.4160003 1,9 C1,4.58400001 4.57600021,1 8.99199976,1 Z M8.99199976,2 C5.13011936,2 2,5.13444872 2,9 C2,12.8655515 5.13011924,16 8.99199976,16 C12.8626325,16 16,12.8647977 16,9 C16,5.13520226 12.8626325,2 8.99199976,2 Z M9.5,5 L9.5,8.75024118 L13.2544333,10.9695773 L12.7455667,11.8304227 L8.5,9.32076576 L8.5,5 L9.5,5 Z"></path>
+              </svg>
+            </div>
+            <div class="Ti(15px)">
+              Duration 27:59
+            </div>
+          </div>
+        </div>
+
+        <div class="featured_item P(20px)">
+          <div class="title P(10px) Ta(c) Fz(20px)">
+            FlexBox tutorial
+          </div>
+          <div class="video P(10px)">
+            <iframe class="W(100%) H(200px)" src="https://www.youtube.com/embed/k32voqQhODc" frameborder="0"
+                    gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <div class="D(f) Lh(26px)">
+            <div class="timer W(25px)">
+              <svg class="index__clockIcon__e89cfd282192a389cb4cfdb11796cc8a CardInfo__clockIcon__94d456bf0c9a78bc9207ebfea12da524"
+                   viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" aria-labelledby="ClockIcon-title"><title
+                      id="ClockIcon-title">ClockIcon</title>
+                <path d="M8.99199976,1 C13.4160003,1 17,4.58399963 17,9 C17,13.4160003 13.4160003,17 8.99199976,17 C4.57600021,17 1,13.4160003 1,9 C1,4.58400001 4.57600021,1 8.99199976,1 Z M8.99199976,2 C5.13011936,2 2,5.13444872 2,9 C2,12.8655515 5.13011924,16 8.99199976,16 C12.8626325,16 16,12.8647977 16,9 C16,5.13520226 12.8626325,2 8.99199976,2 Z M9.5,5 L9.5,8.75024118 L13.2544333,10.9695773 L12.7455667,11.8304227 L8.5,9.32076576 L8.5,5 L9.5,5 Z"></path>
+              </svg>
+            </div>
+            <div class="Ti(15px)">
+              Duration 28:46
+            </div>
+          </div>
+        </div>
+
+        <div class="featured_item P(20px)">
+          <div class="title P(10px) Ta(c) Fz(20px)">
+            The Complete JavaScript Course
+          </div>
+          <div class="video P(10px)">
+            <iframe class="W(100%) H(200px)" src="https://www.youtube.com/embed/10ujZygJzMQ" frameborder="0"
+                    gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <div class="D(f) Lh(26px)">
+            <div class="timer W(25px)">
+              <svg class="index__clockIcon__e89cfd282192a389cb4cfdb11796cc8a CardInfo__clockIcon__94d456bf0c9a78bc9207ebfea12da524"
+                   viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" aria-labelledby="ClockIcon-title"><title
+                      id="ClockIcon-title">ClockIcon</title>
+                <path d="M8.99199976,1 C13.4160003,1 17,4.58399963 17,9 C17,13.4160003 13.4160003,17 8.99199976,17 C4.57600021,17 1,13.4160003 1,9 C1,4.58400001 4.57600021,1 8.99199976,1 Z M8.99199976,2 C5.13011936,2 2,5.13444872 2,9 C2,12.8655515 5.13011924,16 8.99199976,16 C12.8626325,16 16,12.8647977 16,9 C16,5.13520226 12.8626325,2 8.99199976,2 Z M9.5,5 L9.5,8.75024118 L13.2544333,10.9695773 L12.7455667,11.8304227 L8.5,9.32076576 L8.5,5 L9.5,5 Z"></path>
+              </svg>
+            </div>
+            <div class="Ti(15px)">
+              Duration 60:00
+            </div>
+          </div>
+
+        </div>
+
+        <div class="featured_item P(20px)">
+          <div class="title P(10px) Ta(c) Fz(20px)">
+            Python Crash-Course
+          </div>
+          <div class="video P(10px)">
+            <iframe class="W(100%) H(200px)" src="https://www.youtube.com/embed/oy4GOI9vn5M" frameborder="0"
+                    gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          <div class="D(f) Lh(26px)">
+            <div class="timer W(25px)">
+              <svg class="index__clockIcon__e89cfd282192a389cb4cfdb11796cc8a CardInfo__clockIcon__94d456bf0c9a78bc9207ebfea12da524"
+                   viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" aria-labelledby="ClockIcon-title"><title
+                      id="ClockIcon-title">ClockIcon</title>
+                <path d="M8.99199976,1 C13.4160003,1 17,4.58399963 17,9 C17,13.4160003 13.4160003,17 8.99199976,17 C4.57600021,17 1,13.4160003 1,9 C1,4.58400001 4.57600021,1 8.99199976,1 Z M8.99199976,2 C5.13011936,2 2,5.13444872 2,9 C2,12.8655515 5.13011924,16 8.99199976,16 C12.8626325,16 16,12.8647977 16,9 C16,5.13520226 12.8626325,2 8.99199976,2 Z M9.5,5 L9.5,8.75024118 L13.2544333,10.9695773 L12.7455667,11.8304227 L8.5,9.32076576 L8.5,5 L9.5,5 Z"></path>
+              </svg>
+            </div>
+            <div class="Ti(15px)">
+              Duration 1:07:48
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="featured_item P(20px)">
+        <div class="title P(10px) Ta(c) Fz(20px)">
+          TypeScript Tutorial for Angular and React Developers
+        </div>
+        <div class="video P(10px)">
+          <iframe class="W(100%) H(200px)" src="https://www.youtube.com/embed/NjN00cM18Z4" frameborder="0"
+                  gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <div class="D(f) Lh(26px)">
+          <div class="timer W(25px)">
+            <svg class="index__clockIcon__e89cfd282192a389cb4cfdb11796cc8a CardInfo__clockIcon__94d456bf0c9a78bc9207ebfea12da524"
+                 viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg" aria-labelledby="ClockIcon-title"><title
+                    id="ClockIcon-title">ClockIcon</title>
+              <path d="M8.99199976,1 C13.4160003,1 17,4.58399963 17,9 C17,13.4160003 13.4160003,17 8.99199976,17 C4.57600021,17 1,13.4160003 1,9 C1,4.58400001 4.57600021,1 8.99199976,1 Z M8.99199976,2 C5.13011936,2 2,5.13444872 2,9 C2,12.8655515 5.13011924,16 8.99199976,16 C12.8626325,16 16,12.8647977 16,9 C16,5.13520226 12.8626325,2 8.99199976,2 Z M9.5,5 L9.5,8.75024118 L13.2544333,10.9695773 L12.7455667,11.8304227 L8.5,9.32076576 L8.5,5 L9.5,5 Z"></path>
+            </svg>
+          </div>
+          <div class="Ti(15px)">
+            Duration 51:32
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="W(100%) H(50px) Bgc(lightgrey) Ta(c) Lh(50px)">
+  &copy; 2017-2017 learN.
+</footer>
 </div>
 </body>
 </html>

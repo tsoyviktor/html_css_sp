@@ -1,0 +1,52 @@
+header {
+    border-bottom: 2px solid #BDBDBD;
+}
+
+/* CATALOG MENU STYLES */
+.grouped a {
+    display: table-cell;
+    border-collapse: collapse;
+}
+
+.catalog_menu {
+    background-color: #263238;
+}
+
+.catalog_menu a {
+    color: white;
+}
+
+.catalog_menu li:hover,
+.catalog_menu li.active{
+    background-color: #CFD8DC;
+}
+.catalog_menu li:hover a,
+.catalog_menu li.active a {
+    color: black;
+}
+
+.grouped a {
+    background-color: #CFD8DC;
+    border-bottom: 4px solid #fff;
+    border-left: 4px solid #fff;
+}
+
+.grouped a:nth-child(-n + 4) {
+    border-top: 4px solid #fff;
+}
+
+.grouped a:nth-child(4n + 1) {
+    border-left: none;
+}
+
+/* END. CATALOG MENU STYLES */
+
+
+/* FEATURED ITEMS */
+
+.featured_item {
+    width: 45%;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #CFD8DC;
+}
